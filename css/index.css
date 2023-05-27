@@ -1,0 +1,50 @@
+/*all*/
+
+/*containers*/
+
+.banner {
+    color: black;
+    position: absolute;
+    left: 50%;
+}
+
+.info {
+    color: black;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+}
+.select {
+    color: black;
+    position: absolute;
+    left: 50%;
+}
+.tinkers {
+    color: black;
+    position: absolute;
+    left: 50%;
+}
+.more {
+    color: black;
+    position: absolute;
+    left: 50%;
+}
+.footer {
+    color: black;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+}
+.copy {
+    color: black;
+    position: absolute;
+    left: 50%;
+}
+.links {
+    color: black;
+    position: absolute;
+    left: 50%;
+}
+/*misc*/
+
+/*misc2*/
