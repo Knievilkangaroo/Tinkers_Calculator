@@ -1,5 +1,11 @@
 /*all*/
+h1 {
+    font-family: monospace monospace;
+}
 
+p {
+    font-family: monospace monospace;
+}
 /*containers*/
 
 .banner {
@@ -10,7 +16,7 @@
 
 .info {
     color: black;
-    position: absolute;
+    position: static;
     left: 50%;
     text-align: center;
 }
