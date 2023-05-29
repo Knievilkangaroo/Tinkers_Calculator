@@ -12,6 +12,7 @@ p {
     color: black;
     position: absolute;
     left: 50%;
+    background-color: brown;
 }
 
 .info {
