@@ -3,6 +3,24 @@ let outPut = 0;
 let input = '';
 let choice = 0; // default choice out of 4
 let times = 0;
+let gold = 0;
+let allum = 0;
+
+// user tells robot how much to make
+function formz() {
+    // Get the value of the input field with id="numb"
+    let x = document.getElementById("numb").value;
+    // If x is Not a Number or less than one or greater than 1000000
+    let text;
+    if (isNaN(x) || x < 1 || x > 1000000) {
+      text = "Input not valid, please choose the amount of alloy you need";
+    } else {
+      text = "Calculating.....";
+    }
+    document.getElementById("form").innerHTML = text;
+  }
+
+
 
 
 // if user picks a alloy do this
@@ -13,8 +31,10 @@ if (choice = 0) { // no imput
 } 
 
 if (choice = 1) { // alluminum brass
-    console.log
-    times =
+    gold = 1;
+    allum = 3;
+    console.log("User Chose alluminum brass")
+    times = allum * numOfStcks + gold * numOfStcks;
     return
 }
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="header"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calc.html">Calculator</a></li>
+                <li><a href="tool.html">Tools</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="info"></div>
+            <div class="calculator">
+                <input type="submit" id="numb">
+
+                <button type="button" onclick="myFunction()">Submit</button>
+
+                <div class="form"></div>
+            </div>
+        </div>
+        <script>
+            let numOfStcks = 0;
+            let outPut = 0;
+            let input = '';
+            let choice = 0; // default choice out of 4
+            let times = 0;
+            let gold = 0;
+            let allum = 0;
+
+            // user tells robot how much to make
+            function formz() { // Get the value of the input field with id="numb"
+                let x = document.getElementById("numb").value;
+                // If x is Not a Number or less than one or greater than 1000000
+                let text;
+                if (isNaN(x) || x < 1 || x > 1000000) {
+                    text = "Input not valid, please choose the amount of alloy you need";
+                } else {
+                    text = "Calculating.....";
+                }
+                document.getElementById("form").innerHTML = text;
+            }
+
+
+            // if user picks a alloy do this
+
+            if (choice = 0) { // no imput
+                console.log("no user choice")
+                return "Please select an alloy."
+            }
+
+            if (choice = 1) { // alluminum brass
+                gold = 1;
+                allum = 3;
+                console.log("User Chose alluminum brass")
+                times = allum * numOfStcks + gold * numOfStcks;
+                return
+            }
+
+            if (choice = 2) { // alumnite
+                console.log
+                times = return
+            }
+
+            if (choice = 3) { // bronze
+                console.log
+                times = return
+            }
+
+            if (choice = 4) { // manyullyn
+                console.log
+                times = return
+            }
+
+            // Now do the math robot
+
+
+            // send it to the user :33
+        </script>
+    </body>
+</html>
